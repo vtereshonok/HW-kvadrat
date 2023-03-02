@@ -1,0 +1,29 @@
+* { 
+margin: 0; 
+padding: 0; 
+box-sizing: border-box;  
+} 
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.kvad {
+width: 200px;
+height: 200px;
+position: relative;
+margin: auto;
+border: 1px;
+box-sizing: border-box;
+transition: transform 0.5s, width 0.5s, height 0.5s;
+}
+
+.green:hover { 
+  transform: rotate(-45deg) scale(1.5);
+}  
